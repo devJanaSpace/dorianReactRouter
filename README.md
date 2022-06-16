@@ -26,3 +26,18 @@
     <li><a href="/#/plants">Plants</a></li>
 </ul>
 ```
+
+Redirect:
+---
+
+To open another page:
+
+```import { useHistory } from 'react-router-dom';```
+
+similar to dispatch:
+
+```const history = useHistory();```
+
+to move to another page/route: 
+
+```history.push( '/home' );```
